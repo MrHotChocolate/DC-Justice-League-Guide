@@ -1,5 +1,4 @@
 # DC
-README.md for The Justice League Guide Web Application
 Purpose
 The Justice League Guide is a web application designed to provide fans and newcomers alike with in-depth information about the characters of the DC Universe, particularly focusing on the Justice League members. This interactive guide allows users to explore character backgrounds, powers, and significant story arcs, enhancing the user experience through engaging content and multimedia resources.
 
