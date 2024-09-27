@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a237e;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation Bar Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0d47a1;
+}
+
+/* Main Content Styling */
+main {
+    padding-top: 60px; /* Account for fixed header */
+    text-align: center;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Character Section Styling */
+.character {
+    background-color: #eeeeee;
+    color: #333;
+    padding: 20px;
+    border-left: 5px solid #1a237e;
+}
+
+/* Button Styles */
+.button {
+    background-color: #0d47a1;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #1a237e;
+    transform: translateY(-2px);
+}
+
+/* Video iframe Styles */
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 600px) {
+    nav ul li a {
+        padding: 8px 10px;
+    }
+
+    /* Responsive Video iframe for smaller screens */
+    iframe {
+        height: 300px;
+    }
+}
